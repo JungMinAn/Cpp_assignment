@@ -1,3 +1,7 @@
+// C++ BattleShip Proj
+// date : 2018-05-29 ~ 2018-06-02
+// Ship : 2018-05-29 ~ 2018-05-30
+// 학번 : 20171644 이름 : 안중민 / student num : 20171644 name : JungMinAn
 #ifndef SHIP_H
 #define SHIP_H
 #include <ncurses.h>

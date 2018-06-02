@@ -1,5 +1,4 @@
 #include "CBattleShipApp.h"
-#include <ncurses.h>
 #include <ctime>
 #include <iostream>
 #include <cstdlib>
@@ -73,11 +72,6 @@ void CBattleShipApp::makeship(){
     Cruiser = new Ship("Cruiser", 'C', randpos(3), 3, dp);
     Destroyer1 = new Ship("Destroyer1", 'D', randpos(2), 2, dp);
     Destroyer2 = new Ship("Destroyer2", 'D', randpos(2), 2, dp);
-    // Dm_pMap->Setship(Aircraft->m_position, Aircraft->m_Size, Aircraft->m_direction, Aircraft->m_Type);
-    // Dm_pMap->Setship(BattleShip->m_position, BattleShip->m_Size, BattleShip->m_direction, BattleShip->m_Type);
-    // Dm_pMap->Setship(Cruiser->m_position, Cruiser->m_Size, Cruiser->m_direction, Cruiser->m_Type);
-    // Dm_pMap->Setship(Destroyer1->m_position, Destroyer1->m_Size, Destroyer1->m_direction, Destroyer1->m_Type);
-    // Dm_pMap->Setship(Destroyer2->m_position, Destroyer2->m_Size, Destroyer2->m_direction, Destroyer2->m_Type);
 }
 
 void CBattleShipApp::Play(){
